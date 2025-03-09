@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navbar */}
-      <nav className="fixed w-full bg-white z-50 border-b">
+      <nav className="fixed w-full bg-white z-50 border-b  ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-0 flex items-center">
@@ -27,36 +27,33 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
+      <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8 ">
         <div className="max-w-7xl mx-auto">
           <div className="py-20">
             <div className='flex'>
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-8">
               Shaping the Digital Horizon with Superior Creativity and Precision®
             </h1>
-            <p className='flex text-center'>Mosework is a 360 digital production house</p>
-            <div className='rounded-full bg-black flex w-[60px] h-[40px] mt-[100px]'>
+            <div className='flex flex-col'>
+            <p className='flex '>Mosework is a 360 digital production house</p>
+            <div className='rounded-full bg-black flex mt-6 w-[60px] h-[60px]'>
           
             <MoveUpRight className='text-white justify-center m-auto'/>
             </div>
             </div>
+            </div>
             
             <hr></hr>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-16">
-              <div className="text-6xl font-bold">573</div>
-              <div className="text-6xl">*</div>
-              <div className="text-sm">
+            <div className="flex justify-around  p-4">
+              <div className="text-8xl font-medium">573</div>
+              <div className="text-7xl  font-bold ">*
+              <div className="text-sm font-medium">
                 Total number of clients we have handled so far
               </div>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <img 
-                  src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800"
-                  alt="Digital Design"
-                  className="rounded-lg object-cover w-full h-64"
-                />
+              </div>
+           
+              <div className=''>
+                <img className='ml-[100px]  w-[210px] mt-[-14px] ' src="https://images.unsplash.com/photo-1591196702597-062a87208fed?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
               </div>
               <div className="space-y-4">
                 <div className="text-sm">Services:</div>
@@ -67,7 +64,18 @@ function App() {
                 </ul>
               </div>
             </div>
-    <div className='flex '>
+    <hr></hr>
+            <div className="border-2 flex flex-col mt-8">
+              <div>
+                <img 
+                  src="https://images.unsplash.com/photo-1659535880591-78ed91b35158?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Digital Design"
+                  className="rounded-lg  w-full h-100"
+                />
+              </div>
+ 
+            </div>
+    <div className='flex'>
             <p className="text-xl mt-16">
               We're a studio with a rich blend of backgrounds, dedicated to supporting
               companies and organizations in all things creative, artistic, and technological.
