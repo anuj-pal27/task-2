@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium;
+  }
+}
